@@ -9,7 +9,7 @@ process MULTIQC {
     path fastqc_reports
     path fastp_reports
     path quast_reports
-    path kraken_reports
+ 
        
          
     output:

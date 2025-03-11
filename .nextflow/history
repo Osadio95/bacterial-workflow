@@ -118,3 +118,28 @@
 2025-03-10 14:33:29	45.4s	sad_wozniak	ERR	92adb4d22577bea39ef53a88448a4095	7431f0fb-5f71-4813-8ad0-ccba3858c119	nextflow run main.nf -resume
 2025-03-10 14:34:54	3s	naughty_lalande	ERR	c0abc248e1f865a614d4a26490eb1939	7431f0fb-5f71-4813-8ad0-ccba3858c119	nextflow run main.nf -resume
 2025-03-10 14:42:17	7.6s	scruffy_yonath	ERR	9a512566434fa415f23ed1ac23c42c97	7431f0fb-5f71-4813-8ad0-ccba3858c119	nextflow run main.nf -resume
+2025-03-10 18:03:30	2.3s	intergalactic_stonebraker	ERR	47313c573c97604e6b3970a2386e4bad	7431f0fb-5f71-4813-8ad0-ccba3858c119	nextflow run main.nf -resume
+2025-03-10 18:03:41	2.7s	jovial_mercator	ERR	47313c573c97604e6b3970a2386e4bad	7431f0fb-5f71-4813-8ad0-ccba3858c119	nextflow run main.nf -resume
+2025-03-10 18:04:51	2s	festering_sammet	ERR	47313c573c97604e6b3970a2386e4bad	6042cf96-4716-416b-b274-05b6596898dd	nextflow run main.nf
+2025-03-10 18:06:06	12m 14s	special_golick	ERR	47313c573c97604e6b3970a2386e4bad	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf
+2025-03-10 18:19:41	-	naughty_coulomb	-	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 18:22:51	7m 28s	voluminous_bohr	ERR	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 18:30:26	-	astonishing_kimura	-	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 18:31:50	11m 24s	reverent_curran	ERR	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 18:48:55	1m 13s	nasty_noyce	ERR	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 18:50:39	9m 35s	amazing_hodgkin	ERR	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 19:02:33	3m 21s	elated_gauss	ERR	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 19:06:26	8.6s	loquacious_lamport	OK	c7926ff76fdd6bb0ebffaad71a389ec3	8ce142e3-0974-4517-87f8-7982993eed3c	nextflow run main.nf -resume
+2025-03-10 19:07:34	1h 21m 14s	focused_bartik	ERR	c7926ff76fdd6bb0ebffaad71a389ec3	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf
+2025-03-10 21:39:10	8m 48s	special_stallman	OK	6eefbc104ebb23e59740e05fea0e21b5	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume
+2025-03-10 21:53:37	-	suspicious_euclid	-	08dbc2f5158762518fd6c320449b0265	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume
+2025-03-10 21:54:08	9.9s	special_lattes	OK	f93d3ba9563476dd232b38b0cda9c6e8	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume
+2025-03-10 22:13:59	2.3s	pedantic_mestorf	OK	f93d3ba9563476dd232b38b0cda9c6e8	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta
+2025-03-10 22:14:15	-	shrivelled_waddington	-	eb1fbe691d3f58612b6581011a90ecda	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta
+2025-03-10 22:14:38	5m 47s	fabulous_picasso	ERR	3ad6441a96c2bdca6f9af097d5479981	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta
+2025-03-10 22:28:47	3.2s	backstabbing_keller	OK	3ad6441a96c2bdca6f9af097d5479981	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume
+2025-03-10 22:31:33	4.9s	mighty_ptolemy	ERR	71dda1f2b8600df5203302246664b73a	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta
+2025-03-11 09:10:29	5.4s	evil_kilby	ERR	71dda1f2b8600df5203302246664b73a	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta
+2025-03-11 09:19:05	5m 49s	drunk_bernard	ERR	71dda1f2b8600df5203302246664b73a	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta
+2025-03-11 09:28:43	5m 40s	marvelous_cantor	ERR	71dda1f2b8600df5203302246664b73a	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta
+2025-03-11 09:35:31	17m 43s	golden_wegener	OK	71dda1f2b8600df5203302246664b73a	ac479a85-9cd9-423a-bae9-7e0f4a76642c	nextflow run main.nf -resume --bakta

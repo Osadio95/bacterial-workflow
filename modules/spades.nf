@@ -10,7 +10,7 @@ process SPADES {
     tuple val(sample_id), path(reads)
     
     output:
-    tuple val(sample_id), path("${sample_id}/contigs.fasta"), emit: contigs
+    tuple val(sample_id), path("${sample_id}_scaffolds.fasta"), emit: contigs
     path "${sample_id}/assembly_graph_with_scaffolds.gfa", optional: true, emit: graph
     path "${sample_id}/spades.log", emit: log
     
@@ -21,7 +21,11 @@ process SPADES {
         -1 ${reads[0]} \
         -2 ${reads[1]} \
         -o ${sample_id} \
-        -t ${task.cpus} \
-        --memory ${task.memory.toGiga()}
+        -t 20 \
+        --only-assembler \
+        --memory ${task.memory.toGiga()} \
+    && \
+    mv ${sample_id}/scaffolds.fasta ${sample_id}_scaffolds.fasta
     """
 }
+

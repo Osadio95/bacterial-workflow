@@ -22,6 +22,6 @@ process KRAKEN2 {
         --threads ${task.cpus} \
         --output ${sample_id}_kraken2.txt \
         --report ${sample_id}_kraken2_report.tsv \
-        ${sample_id}/contigs.fasta
+        ${sample_id}_scaffolds.fasta
     """
 }

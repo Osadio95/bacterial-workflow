@@ -12,7 +12,7 @@ params.help = false
 // Message d'aide
 def helpMessage() {
     log.info"""
-    Pipeline d'analyse génomique
+    Pipeline d'analyse génomique bacterienne
 
     Usage:
       nextflow run main.nf --reads '/chemin/vers/reads/*_{1,2}.fastq.gz' --outdir '/chemin/vers/resultats'
@@ -25,6 +25,7 @@ def helpMessage() {
       --checkm2_db    Chemin vers la base de données CheckM2 (défaut: $params.checkm2_db)
       --abricate_db   Base de données Abricate à utiliser (défaut: $params.abricate_db)
       --help          Affiche ce message d'aide
+      --bakta	      Annotation avec bakta
     """.stripIndent()
 }
 
@@ -44,8 +45,9 @@ include { CHECKM2 } from './modules/checkm2'
 include { QUAST } from './modules/quast'
 include { ABRICATE } from './modules/abricate'
 include { MLST } from './modules/mlst'
+include { BAKTA } from './modules/bakta'
 // include { SEROTYPE } from './modules/serotyping'
-
+include { MASH } from './modules/mash'
 
 // Workflow principal
 workflow {
@@ -81,13 +83,20 @@ workflow {
     
     // Realisation du serotypage
     // SEROTYPE(FASTP.out.trimmed_reads)
+    
+    // Annotation Bakta
+     BAKTA(SPADES.out.contigs)
+    
+    // MASH Identification
+      MASH(SPADES.out.contigs)
+    
 
     // Rapport MultiQC
     MULTIQC(
         FASTQC.out.reports.collect(),
         FASTP.out.json.collect(),
         QUAST.out.reports.collect(),
-        KRAKEN2.out.report
+       
         
           
       )
