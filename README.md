@@ -1,4 +1,4 @@
-**Pipeline d'analyses de donnees NGS Illumina**
+**NGS Illumina Data Analysis Pipeline**
 
 [FastQC](https://github.com/s-andrews/FastQC) version 0.11.9    
 [Fastp](https://github.com/OpenGene/fastp) version 0.20.0   
