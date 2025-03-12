@@ -15,8 +15,8 @@
 
 
 
-**Base de donnees :**  
-Quatre bases de donnees sont neccesaires sauvegardees dans le dossier data  
+**Databases :**  
+Four databases are required, stored in the data folder.
 * Kraken2  
 * Bakta  
 * Checkm2
