@@ -2,7 +2,7 @@ process SEROTYPE {
     tag "${sample_id}"
     label 'process_medium'
     
-    container 'staphb/seqsero2:latest'  // Vérifie l'image correcte
+    container 'staphb/seqsero2:latest'
 
     publishDir "${params.outdir}/serotyping", mode: 'copy'
 
