@@ -34,3 +34,5 @@ Download Checkm2 database
 **Utitlisation**  
 `nextflow run main.nf`  
 `--bakta`  Annotation with Bakta
+
+Author : Adja Bousso Gueye, Ousmane SADIO 
