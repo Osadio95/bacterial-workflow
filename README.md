@@ -10,7 +10,7 @@
 [Abricate](https://github.com/tseemann/abricate) version 1.0.1  
 [Quast](https://github.com/ablab/quast) version  5.3.0  
 [MASH](https://github.com/marbl/Mash) version  2.3  
-[MULTIQC](https://github.com/MultiQC/MultiQC) version 1.13  
+[MultiQC](https://github.com/MultiQC/MultiQC) version 1.13  
 
 
 
