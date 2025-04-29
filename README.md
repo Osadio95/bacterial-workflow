@@ -1,7 +1,8 @@
 
 
 **NGS Illumina Data Analysis Pipeline**
-![PipelineOS drawio](https://github.com/user-attachments/assets/7e305baf-03cf-4372-bc35-f93970ed21dd)
+
+![PipelineOS drawio (1)](https://github.com/user-attachments/assets/454f8677-3ada-43af-b063-f81f1ecbf3b7)
 
 
 
