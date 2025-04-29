@@ -1,4 +1,9 @@
+
+
 **NGS Illumina Data Analysis Pipeline**
+![PipelineOS drawio](https://github.com/user-attachments/assets/7e305baf-03cf-4372-bc35-f93970ed21dd)
+
+
 
 [FastQC](https://github.com/s-andrews/FastQC) version 0.11.9    
 [Fastp](https://github.com/OpenGene/fastp) version 0.20.0   
