@@ -47,6 +47,8 @@ It is designed for the analysis of bacterial genomes, including:
 
 - In case of contamination, **KrakenTools** can be used to remove contaminant reads.
 
+## 🛠️ Tools used
+
 
 [FastQC](https://github.com/s-andrews/FastQC) version 0.11.9    
 [Fastp](https://github.com/OpenGene/fastp) version 0.20.0   
@@ -80,8 +82,7 @@ Download Bakta database
 Download Checkm2 database  
 `checkm2 database --download`
 
-**Utitlisation**  
-`nextflow run main.nf`  
-`--bakta`  Annotation with Bakta
+## 🗂️ Utitlisation 
 
+⚠️ Under development, release soon 
 Authors : Adja Bousso GUEYE, Ousmane SADIO 
