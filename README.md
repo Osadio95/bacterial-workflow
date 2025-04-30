@@ -80,7 +80,9 @@ Download Bakta database
 `bakta_db download --output <output-path> --type [light|full]`  
 
 Download Checkm2 database  
-`checkm2 database --download`
+`checkm2 database --download`  
+or  
+`python3 download_checkm2db.py` 
 
 ## 🧑‍💻 Usage 
 
