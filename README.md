@@ -47,6 +47,12 @@ It is designed for the analysis of bacterial genomes, including:
 
 - In case of contamination, **KrakenTools** can be used to remove contaminant reads.
 
+
+
+## Examples of results
+![image](https://github.com/user-attachments/assets/bfcd1878-ed39-4520-a1c0-8bb4768f45e3)
+
+
 ## 🛠️ Tools used
 
 
