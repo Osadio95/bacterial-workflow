@@ -76,7 +76,7 @@ Four databases are required, stored in the data folder.
 Download Kraken2  
 Download any kraken2 database [here](https://benlangmead.github.io/aws-indexes/k2) 
 or 
-`python3 download krakendb.py` (minikrakenv1, 8GB)
+`python3 download bin/krakendb.py` (minikrakenv1, 8GB)
 
 Download Bakta database  
 `bakta_db download --output <output-path> --type [light|full]`
@@ -85,7 +85,7 @@ Download Bakta database [here](https://zenodo.org/records/4662588)
 Download Checkm2 database  
 `checkm2 database --download`  
 or  
-`python3 download_checkm2db.py`  
+`python3 bin/download_checkm2db.py`  
 
 Download MASH database
 
@@ -93,7 +93,15 @@ Download MASH database
 ## 🧑‍💻 Usage 
 
 ⚠️ Under development, release soon  
-python3 pipeline.py
+1) Method 1 :  
+You can only run the nextflow pipeline by running  
+`nextflow run illumina.nf`   
+Then you can run the python files to concatenate your results by running  
+`python3 bin/final.py`  
+The advantage is you can add `-resume` to start at the last point the analysis stopped  
+2) Method 2 :    
+or you can run the both the nextflow pipeline and python scripts for concatenation by running :  
+`python3 pipeline.py`
 
 ##  🧑‍🔬  Authors 
 Adja Bousso GUEYE, Ousmane SADIO 
