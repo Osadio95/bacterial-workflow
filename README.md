@@ -84,5 +84,7 @@ Download Checkm2 database
 
 ## 🧑‍💻 Usage 
 
-⚠️ Under development, release soon 
-Authors : Adja Bousso GUEYE, Ousmane SADIO 
+⚠️ Under development, release soon  
+
+##  🧑‍🔬  Authors 
+Adja Bousso GUEYE, Ousmane SADIO 
