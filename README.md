@@ -66,7 +66,7 @@ It is designed for the analysis of bacterial genomes, including:
 [ECtyper](https://github.com/denglab/SeqSero2) version
 
 
-**Databases :**  
+## Databases 
 Four databases are required, stored in the data folder.
 * Kraken2  
 * Bakta  
@@ -82,7 +82,7 @@ Download Bakta database
 Download Checkm2 database  
 `checkm2 database --download`
 
-## 🗂️ Utitlisation 
+## 🧑‍💻 Usage 
 
 ⚠️ Under development, release soon 
 Authors : Adja Bousso GUEYE, Ousmane SADIO 
