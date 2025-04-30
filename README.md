@@ -5,6 +5,49 @@
 
 ![PipelineOS drawio (2)](https://github.com/user-attachments/assets/11dfbb83-5611-4d06-af26-f7969bf5f5a9)
 
+
+
+## 📌 Project Status
+
+The pipeline is currently under development.
+
+## 🧬 Purpose
+
+It is designed for the analysis of bacterial genomes, including:
+
+- Assembly and Quality Control
+- Contamination and completness 
+- Detection of antibiotic resistance genes
+- Serotyping
+- MLST (Multi-Locus Sequence Typing)
+- Plasmid identification
+- Virulence factors
+
+## ⚙️ Workflow
+
+- The pipeline is managed using **Nextflow**.
+- Output includes multiple `.csv` files.
+- A Python script is used to **concatenate results** from various tools and generates a single spreadsheet (`.xlsx`) with **multiple sheets** (one per tool).
+- **Non-compliant results** (e.g., low N50 values) are highlighted in **orange-colored cells**.
+
+## 🧫 Species Identification and Typing
+
+- **Bactinspector** is used for bacterial species identification.
+- Depending on the identified species, a specific typing tool is launched:
+  - `Kleborate` for *Klebsiella pneumoniae*
+  - `ECtyper` for *Escherichia coli*
+  - `SeqSero` for *Salmonella*
+
+## 🧾 Annotation Option
+
+- An annotation option is available.
+- **Note**: a database must be downloaded in advance to enable this feature.
+
+## 🧹 Contamination Handling
+
+- In case of contamination, **KrakenTools** can be used to remove contaminant reads.
+
+
 [FastQC](https://github.com/s-andrews/FastQC) version 0.11.9    
 [Fastp](https://github.com/OpenGene/fastp) version 0.20.0   
 [SPADES](https://github.com/ablab/spades) version  3.15.5   
