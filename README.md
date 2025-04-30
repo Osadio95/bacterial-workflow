@@ -12,12 +12,13 @@
 [Checkm2](https://github.com/chklovski/CheckM2) version  1.0.2  
 [Kraken2](https://github.com/DerrickWood/kraken2) version  2.1.3  
 [Bakta](https://github.com/oschwengers/bakta?tab=readme-ov-file#installation) version  1.9.4  
+[Bactinspector](https://gitlab.com/antunderwood/bactinspector) version
 [Abricate](https://github.com/tseemann/abricate) version 1.0.1  
 [Quast](https://github.com/ablab/quast) version  5.3.0  
 [MASH](https://github.com/marbl/Mash) version  2.3  
-[MultiQC](https://github.com/MultiQC/MultiQC) version 1.13  
-
-
+[MultiQC](https://github.com/MultiQC/MultiQC) version 1.13
+[Kleborate](https://github.com/klebgenomics/Kleborate) version 
+[ECtyper](https://github.com/denglab/SeqSero2) version
 
 
 **Databases :**  
