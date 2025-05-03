@@ -82,7 +82,7 @@ Four databases are required, stored in the data folder.
 Download Kraken2  
 Download any kraken2 database [here](https://benlangmead.github.io/aws-indexes/k2) 
 or 
-`python3 download bin/krakendb.py` (minikrakenv1, 8GB)
+`python3 bin/krakendb.py` (minikrakenv1, 8GB)
 
 Download Bakta database  
 `bakta_db download --output <output-path> --type [light|full]`
