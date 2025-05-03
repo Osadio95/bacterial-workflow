@@ -68,7 +68,7 @@ It is designed for the analysis of bacterial genomes, including:
 [Quast](https://github.com/ablab/quast) version  5.3.0  
 [MASH](https://github.com/marbl/Mash) version  2.3  
 [MultiQC](https://github.com/MultiQC/MultiQC) version 1.13  
-[Kleborate](https://github.com/klebgenomics/Kleborate) version   
+[Kleborate](https://github.com/klebgenomics/Kleborate) version 3.1.3     
 [ECtyper](https://github.com/denglab/SeqSero2) version
 
 
