@@ -63,7 +63,7 @@ It is designed for the analysis of bacterial genomes, including:
 [Checkm2](https://github.com/chklovski/CheckM2) version  1.0.2  
 [Kraken2](https://github.com/DerrickWood/kraken2) version  2.1.3  
 [Bakta](https://github.com/oschwengers/bakta?tab=readme-ov-file#installation) version  1.9.4  
-[Bactinspector](https://gitlab.com/antunderwood/bactinspector) version  0.1.3
+[Bactinspector](https://gitlab.com/antunderwood/bactinspector) version  0.1.3  
 [Abricate](https://github.com/tseemann/abricate) version 1.0.1  
 [Quast](https://github.com/ablab/quast) version  5.3.0  
 [MASH](https://github.com/marbl/Mash) version  2.3  
