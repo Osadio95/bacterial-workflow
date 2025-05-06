@@ -95,6 +95,9 @@ or
 
 Download MASH database
 
+## Dependances pythons   
+
+`pip install -r requirements.txt` Download python requirements for data analysis pandas, matplotlib, openpyxl and seaborn  
 
 ## 🧑‍💻 Usage 
 
