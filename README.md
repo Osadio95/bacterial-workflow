@@ -98,7 +98,31 @@ Download MASH database
 
 ## 🧑‍💻 Usage 
 
-⚠️ Under development, release soon  
+⚠️ Under development, release soon
+
+Usage:
+  nextflow run main.nf
+  --help          Display this help message 
+
+Output :
+   Result will be in 'results' folder
+
+Options:
+  `--reads`         Path to paired FASTQ files (default: /home/m3/pipeline_nf/projectDir/data/*_R{1,2}.fastq.gz)
+  `--threads`       Number of threads to use (default: 20)
+
+Annotation : 
+`--bakta`         Annotation with Bakta	
+
+Database :  
+  --kraken_db     Path to the Kraken2 database (default: /home/m3/pipeline_nf/projectDir/db/minikraken2_v1_8GB)
+  --checkm2_db    Path to the CheckM2 database (default: /home/m3/pipeline_nf/projectDir/db/checkm2_database/CheckM2_db/uniref100.KO.1.dmnd)
+  --bakta_db      Path to the Bakta database (default: /home/m3/pipeline_nf/projectDir/db/db_bakta)
+  --mash_db       Path to the MASH database (default: /home/m3/pipeline_nf/projectDir/db/refseq.msh)
+  --abricate_db   Abricate database to use (default: resfinder)		  	 
+
+
+
 1) Method 1 :  
 You can only run the nextflow pipeline by running  
 `nextflow run illumina.nf`   
