@@ -100,38 +100,27 @@ Download MASH database
 
 ⚠️ Under development, release soon
 
-Usage:
-  nextflow run main.nf
-  --help          Display this help message 
+```bash
+Usage:  
+  nextflow run main.nf  
+    --help            Display this help message   
 
-Output :
-   Result will be in 'results' folder
+Output:  
+  Result will be in the 'results' folder  
 
-Options:
-  `--reads`         Path to paired FASTQ files (default: /home/m3/pipeline_nf/projectDir/data/*_R{1,2}.fastq.gz)
-  `--threads`       Number of threads to use (default: 20)
+Options:  
+  --reads            Path to paired FASTQ files (default: /data/*_R{1,2}.fastq.gz)  
+  --threads          Number of threads to use (default: 20)  
 
-Annotation : 
-`--bakta`         Annotation with Bakta	
+Annotation:   
+  --bakta            Annotation with Bakta  	
 
-Database :  
-  --kraken_db     Path to the Kraken2 database (default: /home/m3/pipeline_nf/projectDir/db/minikraken2_v1_8GB)
-  --checkm2_db    Path to the CheckM2 database (default: /home/m3/pipeline_nf/projectDir/db/checkm2_database/CheckM2_db/uniref100.KO.1.dmnd)
-  --bakta_db      Path to the Bakta database (default: /home/m3/pipeline_nf/projectDir/db/db_bakta)
-  --mash_db       Path to the MASH database (default: /home/m3/pipeline_nf/projectDir/db/refseq.msh)
-  --abricate_db   Abricate database to use (default: resfinder)		  	 
-
-
-
-1) Method 1 :  
-You can only run the nextflow pipeline by running  
-`nextflow run illumina.nf`   
-Then you can run the python files to concatenate your results by running  
-`python3 bin/final.py`  
-The advantage is you can add `-resume` to start at the last point the analysis stopped  
-2) Method 2 :    
-or you can run the both the nextflow pipeline and python scripts for concatenation by running :  
-`python3 pipeline.py`
-
+Database:    
+  --kraken_db        Path to the Kraken2 database (default: /db/minikraken2_v1_8GB)  
+  --checkm2_db       Path to the CheckM2 database (default: /db/checkm2_database/CheckM2_db/uniref100.KO.1.dmnd)  
+  --bakta_db         Path to the Bakta database (default: /db/db_bakta)  
+  --mash_db          Path to the MASH database (default: /db/refseq.msh)  
+  --abricate_db      Abricate database to use (default: resfinder)
+```
 ##  🧑‍🔬  Authors 
-Adja Bousso GUEYE, Ousmane SADIO 
+Adja Bousso GUEYE, [Ousmane SADIO](https://www.linkedin.com/in/ousmane-sadio-08375a322/) 
