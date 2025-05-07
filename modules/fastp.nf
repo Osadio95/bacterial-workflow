@@ -1,6 +1,6 @@
 process FASTP {
     tag "${sample_id}"
-    label 'process_medium'
+    // label 'process_medium'
     
     container 'nanozoo/fastp'
     

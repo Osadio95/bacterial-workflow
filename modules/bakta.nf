@@ -18,11 +18,11 @@ process BAKTA {
     path "${sample_id}/*.fna", emit: fna
     path "${sample_id}/*.json", emit: json
 
-    
-     when:
-        params.bakta 
+   when:
+    params.bakta 
+        
     script:
     """
-     bakta --db /db/db_bakta ${contigs} --output ${sample_id} --verbose -t 20 --skip-tmrna --skip-rrna --skip-ncrna --skip-ncrna-region --skip-crispr --skip-pseudo --skip-gap
+     bakta --db ${params.bakta_db} ${contigs} --output ${sample_id} --verbose -t 20 --skip-tmrna --skip-rrna --skip-ncrna --skip-ncrna-region --skip-crispr --skip-pseudo --skip-gap
     """
 }

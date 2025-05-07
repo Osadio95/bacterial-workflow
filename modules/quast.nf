@@ -1,6 +1,6 @@
 process QUAST {
     tag "${sample_id}"
-    label 'process_medium'
+    // label 'process_medium'
     
     container 'staphb/quast'
     
@@ -8,16 +8,20 @@ process QUAST {
     
     input:
     tuple val(sample_id), path(contigs)
+    tuple val(sample_id_reads), path(trimmed_reads)
     
     output:
-    path "${sample_id}_quast", emit: reports
+    path "${sample_id}_quast", emit: report
     
     script:
+    def (read1, read2) = trimmed_reads
     """
     quast.py \
         ${contigs} \
         -o ${sample_id}_quast \
-        --threads ${task.cpus} \
-        --min-contig 500
+        --threads 16 \
+        --min-contig 200 \
+        --pe1 ${read1} \
+        --pe2 ${read2}
     """
 }

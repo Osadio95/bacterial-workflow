@@ -1,6 +1,6 @@
 process ABRICATE {
     tag "${sample_id}"
-    label 'process_medium'
+    // label 'process_medium'
     
     container 'quay.io/biocontainers/abricate:1.0.1--ha8f3691_1'
     

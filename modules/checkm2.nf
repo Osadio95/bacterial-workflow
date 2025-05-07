@@ -15,6 +15,9 @@ process CHECKM2 {
     path "${sample_id}_checkm2/*", emit: results
     path "${sample_id}_checkm2/quality_report.tsv", emit: report
     
+    when:
+      params.checkm2 
+            
     script:
     """
     # Créer un dossier pour les fichiers de contigs et pour la base de données
@@ -28,10 +31,10 @@ process CHECKM2 {
     # Exécuter CheckM2 avec la base de données téléchargée
     checkm2 predict \
         --threads ${task.cpus} \
-        --input input/*fasta \
+        --input input/*fas \
         --output-directory ${sample_id}_checkm2 \
         --force \
-        --database_path /db/checkm2_database/CheckM2_db/uniref100.KO.1.dmnd
+        --database_path ${params.checkm2_db}
         
     """
 }
