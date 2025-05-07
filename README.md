@@ -1,4 +1,5 @@
-
+## First version released  
+[Find here the first version the workflow ](https://github.com/Osadio95/bacterial-workflow) 
 
 **NGS Illumina Data Analysis Pipeline**
 
