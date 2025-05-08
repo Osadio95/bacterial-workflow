@@ -1,2 +1,2 @@
-# Ignorer les fichiers de log de Nextflow
+# Ignore nextflow log files
 .nextflow.log
