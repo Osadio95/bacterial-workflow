@@ -16,7 +16,6 @@ process ABRICATE {
     """
     abricate \
         --db ${params.abricate_db} \
-        --threads ${task.cpus} \
         --nopath \
         ${contigs} > ${sample_id}.${params.abricate_db}.tsv
     """

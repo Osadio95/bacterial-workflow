@@ -70,7 +70,6 @@ include { SEROTYPE } from './modules/serotyping'
 include { KLEBORATE } from './modules/kleborate'
 include { ECTYPER } from './modules/ectyper'
 include { MASH } from './modules/mash'
-include { REPORT } from './modules/report'
 
 // Main workflow
 workflow {

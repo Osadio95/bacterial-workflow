@@ -1,6 +1,6 @@
 process SPADES {
     tag "${sample_id}"
-    label 'process_high'
+    // label 'process_high'
     
     container 'staphb/spades:3.15.5'
     
@@ -21,10 +21,8 @@ process SPADES {
         -1 ${reads[0]} \
         -2 ${reads[1]} \
         -o ${sample_id} \
-        -t ${task.cpus} \
         --only-assembler \
-        --memory ${task.memory.toGiga()} \
-    && \
+           && \
     mv ${sample_id}/scaffolds.fasta ${sample_id}_scaffolds.fas
     """
 }

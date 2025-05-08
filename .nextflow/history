@@ -1,0 +1,7 @@
+2025-05-08 20:04:29	48.2s	hungry_murdock	ERR	52fa0e6c72a0547221462d0c82ab1592	59b8fcdd-4de0-482c-b932-decf56d95367	nextflow run main.nf
+2025-05-08 20:10:18	47.7s	nice_majorana	ERR	52fa0e6c72a0547221462d0c82ab1592	83b44678-0cbc-44de-a501-3bb4f82d7b84	nextflow run main.nf
+2025-05-08 20:12:17	4m 58s	happy_planck	OK	52fa0e6c72a0547221462d0c82ab1592	16762559-1c3c-4765-bcc9-f98f6725bbfd	nextflow run main.nf
+2025-05-08 20:20:59	-	zen_mirzakhani	-	52fa0e6c72a0547221462d0c82ab1592	16762559-1c3c-4765-bcc9-f98f6725bbfd	nextflow run main.nf -resume
+2025-05-08 20:21:37	2m 39s	irreverent_kimura	ERR	89393eccf7acf62e9c6739012c47acd8	16762559-1c3c-4765-bcc9-f98f6725bbfd	nextflow run main.nf -resume
+2025-05-08 20:24:34	7m 22s	shrivelled_descartes	OK	89393eccf7acf62e9c6739012c47acd8	4e41fb81-0f2a-4093-9a9b-7c7b890cc173	nextflow run main.nf
+2025-05-08 20:34:12	4m 56s	focused_marconi	ERR	89393eccf7acf62e9c6739012c47acd8	4bddf845-7e06-427a-b927-3505e8f5e31b	nextflow run main.nf

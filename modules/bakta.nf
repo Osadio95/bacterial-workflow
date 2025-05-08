@@ -23,6 +23,6 @@ process BAKTA {
         
     script:
     """
-     bakta --db ${params.bakta_db} ${contigs} --output ${sample_id} --verbose -t 20 --skip-tmrna --skip-rrna --skip-ncrna --skip-ncrna-region --skip-crispr --skip-pseudo --skip-gap
+     bakta --db ${params.bakta_db} ${contigs} --output ${sample_id} --verbose --skip-tmrna --skip-rrna --skip-ncrna --skip-ncrna-region --skip-crispr --skip-pseudo --skip-gap
     """
 }

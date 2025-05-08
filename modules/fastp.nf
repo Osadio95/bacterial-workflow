@@ -26,7 +26,6 @@ process FASTP {
         -f 18 \
         -F 18 \
         --cut_mean_quality 20 \
-        --thread ${task.cpus} \
-        --detect_adapter_for_pe
+        --detect_adapter_for_pe \
     """
 }

@@ -19,7 +19,6 @@ process QUAST {
     quast.py \
         ${contigs} \
         -o ${sample_id}_quast \
-        --threads 16 \
         --min-contig 200 \
         --pe1 ${read1} \
         --pe2 ${read2}
