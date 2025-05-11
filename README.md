@@ -7,11 +7,11 @@
 
 
 
-## 📌 Project Status
+## Project Status
 
 The pipeline is currently under development.
 
-## 🧬 Purpose
+## Purpose
 
 It is designed for the analysis of bacterial genomes, including:
 
@@ -23,14 +23,14 @@ It is designed for the analysis of bacterial genomes, including:
 - Plasmid identification
 - Virulence factors
 
-## ⚙️ Workflow
+## Workflow
 
 - The pipeline is managed using **Nextflow**.
 - Output includes multiple `.csv` files.
 - A Python script is used to **concatenate results** from various tools and generates a single spreadsheet (`.xlsx`) with **multiple sheets** (one per tool).
 - **Non-compliant results** (e.g., low N50 values) are highlighted in **orange-colored cells**.
 
-## 🧫 Species Identification and Typing
+## Species Identification and Typing
 
 - **Bactinspector** is used for bacterial species identification.
 - Depending on the identified species, a specific typing tool is launched:
@@ -38,12 +38,12 @@ It is designed for the analysis of bacterial genomes, including:
   - `ECtyper` for *Escherichia coli*
   - `SeqSero` for *Salmonella*
 
-## 🧾 Annotation Option
+## Annotation Option
 
 - An annotation option is available.
 - **Note**: a database must be downloaded in advance to enable this feature.
 
-## 🧹 Contamination Handling
+## Contamination Handling
 
 - In case of contamination, **KrakenTools** can be used to remove contaminant reads.
 
@@ -53,7 +53,7 @@ It is designed for the analysis of bacterial genomes, including:
 ![image](https://github.com/user-attachments/assets/bfcd1878-ed39-4520-a1c0-8bb4768f45e3)
 
 
-## 🛠️ Tools used
+## Tools used
 
 
 [FastQC](https://github.com/s-andrews/FastQC) version 0.11.9    
@@ -101,7 +101,6 @@ Download MASH database
 
 ## 🧑‍💻 Usage 
 
-⚠️ Under development, release soon
 
 ```bash
 Usage:  
@@ -125,5 +124,5 @@ Database:
   --mash_db          Path to the MASH database (default: /db/refseq.msh)  
   --abricate_db      Abricate database to use (default: resfinder)
 ```
-##  🧑‍🔬  Authors 
+## Authors 
 Adja Bousso GUEYE, [Ousmane SADIO](https://www.linkedin.com/in/ousmane-sadio-08375a322/) 
