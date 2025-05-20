@@ -20,8 +20,8 @@ It is designed for the analysis of bacterial genomes, including:
 - Detection of antibiotic resistance genes
 - Serotyping
 - MLST (Multi-Locus Sequence Typing)
-- Plasmid identification
-- Virulence factors
+- Plasmid identification (soon)
+- Virulence factors (soon)
 
 ## Workflow
 
